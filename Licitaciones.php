@@ -20,6 +20,7 @@ if(isset($_POST["licitaciones"]))
     else 
     {
         echo "Error: ".sqlgrabar."<br>".mysql_error($conn);
+        //sohoqd
     }
     
 }
